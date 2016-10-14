@@ -35,6 +35,18 @@ class TodosListCtrl {
     this.newTask = '';
   }
 
+  setChecked(task){
+    Tasks.update(task._id, {
+      $set:{
+        checked: !task.checked
+      },
+    });
+  }
+
+  removeTask(task){
+    Tasks.remove(task._id);
+  }
+
 }
 
  

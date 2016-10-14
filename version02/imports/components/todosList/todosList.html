@@ -15,9 +15,14 @@
 					</div>
 				</form>
 		</header>
+
 		<ul class="list-group">
 			<li ng-repeat="task in $ctrl.tasks" class="list-group-item">
-				{{task.text}}, <span> creado el </span> {{task.createdAt}}
+				<button class="delete btn btn-default" ng-click="$ctrl.removeTask(task)">&times;</button>
+				<input type="checkbox" ng-checked="task.checked" ng-click="$ctrl.setChecked(task)" class="toggle-checked"/>
+				<span class="text">
+					{{task.text}}
+				</span>
 			</li>
 		</ul>
 	</div>
