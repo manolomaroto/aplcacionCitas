@@ -59,7 +59,13 @@
 			<div class="jumbotron">
 				<h1>Seleccione la fecha y hora</h1>
 			</div>
-
+			<div class="header-wrapper" ng-controller="headerCtrl">
+			
+			<ul class="nav navbar-nav nav-wrapper">
+				<li ng-class="{active: nav.isActive('/books')}" ><a href="#/books">Horas</a></li>
+				<li ng-class="{active: nav.isActive('/kart')}"><a href="#/kart">Hora seleccionada</a></li>
+			</ul>
+			</div>
 			<!-- <div class="row">
 				<div class="col-xs-3">
 					<h3>Mes</h3>

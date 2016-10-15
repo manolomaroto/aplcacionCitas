@@ -1,0 +1,22 @@
+<div class="bookListWrapper">
+		<form role="form">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Busca una fecha..." ng-model="searchStr"></input>
+			</div>
+			
+		</form>
+		<div>
+			<ul class="list-unstyled">
+				<li class="book" style="background:white url(img/{{book.imgurl}}) no-repeat" ng-repeat="book in books | filter:searchStr">
+					<div class="book-details clearfix">
+						<h3>{{book.date}}</h3>
+						
+						
+						<button class="btn btn-info pull-right" ng-click="addToKart(book)">
+							Seleccionar hora
+						</button>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
