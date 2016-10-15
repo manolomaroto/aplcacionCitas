@@ -31,7 +31,7 @@ function checkCookie() {
 
 
 $(document).ready(function(){
-				$(".contentContainer").css("min-height", $(window).height());
+				$("body").css("min-height", $(window).height());
 				$("#capaCookie")
 				.css("top", $(window).height() - 80)
 				.css("left", $(window).width()/2);
