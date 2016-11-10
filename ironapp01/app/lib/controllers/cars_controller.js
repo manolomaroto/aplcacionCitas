@@ -24,6 +24,7 @@ CarsController = RouteController.extend({
   // return Posts.findOne({_id: this.params._id});
   
   data: function () {
+    return Cars.findOne({_id: this.params._id});
   },
   
   // You can provide any of the hook options
@@ -52,5 +53,11 @@ CarsController = RouteController.extend({
   onAfterAction: function () {
   },
   onStop: function () {
+  },
+  list: function() {
+    this.render('ListCars',{});
+  },
+  edit: function (){
+    this.render('EditCar',{});
   }
 });
