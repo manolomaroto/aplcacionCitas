@@ -61,6 +61,26 @@ table {
 		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
 }
 
+h1{
+	font-size: 36px;
+	font-weight: bold;
+	padding: 3px;
+}
+h2{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 3px;
+}
+h3{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.article p b{
+	font-weight: bold;
+}
+
 body {
 	background: #fff;
 	font-family: Arial, Helvetica, sans-serif;
@@ -124,7 +144,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #header ul li a:hover, #header ul li.selected a {
-	color: #0ba39c;
+	color: #3DB3C7;
 }
 #body {
 	margin: 0;
@@ -154,7 +174,7 @@ p a:hover {
 	width: 960px;
 }
 #body > div img {
-	border: 2px solid #292929;
+	
 	margin: 24px 0 0;
 	padding: 0;
 }
@@ -442,14 +462,14 @@ p a:hover {
 
 
 #footer div ul li #facebook {
-	background-position: -32px 2px;
+	background-position: -34px 2px;
 }
 #footer div ul li #facebook:hover {
-	background-position: -32px -29px;
+	background-position: -34px -29px;
 }
 #footer div ul li #instagram {
-	background-position: -64px 4px;
+	background-position: -68px 4px;
 }
 #footer div ul li #instagram:hover {
-	background-position: -64px -29px;
+	background-position: -68px -29px;
 }
