@@ -184,7 +184,7 @@ p a:hover {
 	width: 560px;
 }
 #body > div .article h2 {
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: Arial, Gadget, sans-serif;
 	font-size: 25px;
 	font-weight: normal;
 	margin: 0 0 30px;
@@ -199,7 +199,7 @@ p a:hover {
 	background: #252525;
 	color: #fff;
 	display: inline-block;
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: Arial, Gadget, sans-serif;
 	font-size: 25px;
 	font-weight: normal;
 	margin: 0 0 30px;
@@ -247,7 +247,7 @@ p a:hover {
 }
 #body div ul li div h3 {
 	color: #252525;
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: Arial, Gadget, sans-serif;
 	font-size: 25px;
 	font-weight: normal;
 	margin: 0;
@@ -261,7 +261,7 @@ p a:hover {
 	background: #000;
 	color: #fff;
 	display: inline-block;
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: Arial, Gadget, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	margin: 0;
