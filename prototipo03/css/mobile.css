@@ -226,3 +226,12 @@ body {
 	margin: 0 auto;
 	width: 256px;
 }
+
+.madridSalud{
+	max-width: 20%;
+}
+
+div#footer div ul{
+	width: 128px;
+    margin: 0 auto;
+}

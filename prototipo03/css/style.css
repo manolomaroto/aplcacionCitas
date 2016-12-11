@@ -161,6 +161,7 @@ p a:hover {
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
+	margin: 0 auto;
 }
 #body h1 span {
 	background: #252525;
