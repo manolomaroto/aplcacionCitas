@@ -231,6 +231,10 @@ body {
 	max-width: 20%;
 }
 
+.fotosPequenas{
+	display: none;
+}
+
 div#footer div ul{
 	width: 128px;
     margin: 0 auto;
