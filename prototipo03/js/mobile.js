@@ -1,23 +1,40 @@
 
-    
-    /* ésto se ejecuta cuando la web está cargada */
  
 
 window.onload = function(){
 
-	compruebaAceptaCookies();
-	$("#botonAceptarCookies").click(aceptarCookies);
+	checkCookie();
+	$("#botonAceptarCookies").click(setCookie);
 	
-	function compruebaAceptaCookies() {
-        if(localStorage.aceptaCookies == 'true'){
-            cajacookies.style.display = 'none';
+	
+    
+    function setCookie() {
+    
+    document.cookie = "cookie=true";
+	cajacookies.style.display = 'none';
+}
+
+	function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
         }
     }
-    
-    function aceptarCookies() {
-        localStorage.aceptaCookies = 'true';
+    return "";
+}
+
+function checkCookie() {
+    var cookieText = getCookie("cookie");
+    if (cookieText == "true") {
         cajacookies.style.display = 'none';
     }
+}
 
 	
 	
