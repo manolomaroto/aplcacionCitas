@@ -1,4 +1,26 @@
+
+    
+    /* ésto se ejecuta cuando la web está cargada */
+ 
+
 window.onload = function(){
+
+	compruebaAceptaCookies();
+	$("#botonAceptarCookies").click(aceptarCookies);
+	
+	function compruebaAceptaCookies() {
+        if(localStorage.aceptaCookies == 'true'){
+            cajacookies.style.display = 'none';
+        }
+    }
+    
+    function aceptarCookies() {
+        localStorage.aceptaCookies = 'true';
+        cajacookies.style.display = 'none';
+    }
+
+	
+	
 	var getNavi = document.getElementById('navigation');
 
 	var mobile = document.createElement("span");
