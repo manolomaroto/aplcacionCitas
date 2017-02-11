@@ -491,6 +491,10 @@ p a:hover {
 
 #cajacookies button {
     color: black;
+}
+
+#colmenar, #miraflores{
+	display: none;
 }  
 
 @media (max-width:962px) and (min-width:650px){
