@@ -3,7 +3,6 @@
 
 window.onload = function(){
 
-	$(".situacion").height($(window).height());
 
 	checkCookie();
 	$("#botonAceptarCookies").click(setCookie);
