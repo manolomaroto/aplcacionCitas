@@ -493,9 +493,9 @@ p a:hover {
     color: black;
 }
 
-#colmenar, #miraflores{
+#colmenar+aside, #miraflores+aside{
 	display: none;
-}  
+}
 
 @media (max-width:962px) and (min-width:650px){
 	body {
