@@ -133,6 +133,9 @@ p a:hover {
 	margin: 0;
 	padding: 0 19px;
 }
+#header ul li{
+	float: left;
+}
 #header ul li a {
 	color: #252525;
 	display: inline-block;
@@ -147,6 +150,24 @@ p a:hover {
 #header ul li a:hover, #header ul li.selected a {
 	color: #3DB3C7;
 }
+
+#header ul li ul{
+	display:none;
+	position: absolute;
+	min-width: 140px;
+	padding: 0px;
+}
+
+#header ul li a i{
+	position: relative;
+    left: 10px;
+    top: -5px;
+}
+
+#header ul li:hover > ul{
+	display: block;
+}
+
 #body {
 	margin: 0;
 	padding: 0 0 30px;
@@ -767,6 +788,7 @@ body {
 }
 #header ul ul li a {
 	text-indent: 15px;
+	background-color: red;
 }
 #header ul li span {
 	background: rgba(11, 163, 156, 0.9) url(../images/mobile-expand.png) no-repeat 0 0;
