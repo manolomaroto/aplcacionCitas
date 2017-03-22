@@ -154,8 +154,12 @@ p a:hover {
 #header ul li ul{
 	display:none;
 	position: absolute;
-	min-width: 140px;
+	min-width: 100px;
 	padding: 0px;
+}
+
+#header ul li ul a{
+	margin-left: -19px;
 }
 
 #header ul li a i{
