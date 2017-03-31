@@ -37,7 +37,7 @@ function checkCookie() {
     }
 }
 
-	
+
 	
 	var getNavi = document.getElementById('navigation');
 
@@ -70,7 +70,7 @@ function checkCookie() {
 		if(b){
 			sub.removeAttribute('style');
 			getElm[i].lastChild.style.backgroundImage='url(images/mobile-expand.png)';
-			getElm[i].lastChild.style.backgroundColor='rgba(11, 163, 156, 0.7)';
+			getElm[i].lastChild.style.backgroundColor='rgba(61, 179, 199, .9)';
 		} else {
 			sub.style.display='block';
 			getElm[i].lastChild.style.backgroundImage='url(images/mobile-collapse.png)';
