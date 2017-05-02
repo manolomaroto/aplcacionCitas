@@ -512,10 +512,17 @@ p a:hover {
     position: fixed;
     top: 0px;
     width: 100%;
+    margin: 0 auto;
+    background-color: #3DB3C7;
+    opacity: .6;
 }
 
 #cajacookies button {
     color: black;
+}
+
+#textocookies, #botoncookies{
+	display: inline;
 }
 
 #colmenar+aside, #miraflores+aside{
