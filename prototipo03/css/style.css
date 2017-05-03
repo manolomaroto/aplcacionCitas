@@ -514,7 +514,7 @@ p a:hover {
     width: 100%;
     margin: 0 auto;
     background-color: #3DB3C7;
-    opacity: .6;
+    opacity: .8;
 }
 
 #cajacookies button {
@@ -525,6 +525,12 @@ p a:hover {
 	display: inline;
 }
 
+#botonAceptarCookies{
+	background-color: #FF5B4A;
+    border-left-color: #FF7D6F;
+    border-top-color: #FF7D6F;
+}
+
 #colmenar+aside, #miraflores+aside{
 	display: none;
 }
@@ -533,6 +539,7 @@ p a:hover {
 	body {
 	min-width: 0;
 }
+
 #header {
 	padding: 20px 0;
 	position: relative;
@@ -730,6 +737,7 @@ div#footer div ul{
 /*Fin css tablet*/
 @media (max-width:649px){
 	/* Website Template by freewebsitetemplates.com */
+
 body {
 	min-width: 0;
 }
@@ -984,3 +992,28 @@ div#footer div ul{
 }
 }
 /*Fin estilos movil*/
+
+#botonAceptarCookies{
+	height: 50px;
+	border-radius: 4px;
+}
+
+#botoncookies{
+	margin-top: 10px;
+	display: block;
+}
+
+#textocookies{
+	padding: 10px;
+	text-align: center;
+}
+
+#textocookies p{
+	padding-right: 15px;
+}
+
+#botonAceptarCookies{
+	margin: 0 auto;
+	display: block;
+
+}
