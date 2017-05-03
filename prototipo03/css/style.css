@@ -510,11 +510,11 @@ p a:hover {
     padding: 10px;  
     margin-bottom: 0px;
     position: fixed;
-    top: 0px;
+    bottom: 0px;
     width: 100%;
     margin: 0 auto;
     background-color: #3DB3C7;
-    opacity: .8;
+    opacity: .9;
 }
 
 #cajacookies button {
