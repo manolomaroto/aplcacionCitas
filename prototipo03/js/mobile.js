@@ -12,7 +12,7 @@ window.onload = function(){
     function setCookie() {
     
     document.cookie = "cookie=true";
-	cajacookies.style.display = 'none';
+	$("#cajacookies").hide("slow");
 }
 
 	function getCookie(cname) {

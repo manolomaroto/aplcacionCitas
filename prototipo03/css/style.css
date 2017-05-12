@@ -518,7 +518,8 @@ p a:hover {
 }
 
 #cajacookies button {
-    color: black;
+    color: #fff;
+    font-size: 1.2em;
 }
 
 #textocookies, #botoncookies{
