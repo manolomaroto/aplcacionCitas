@@ -125,7 +125,7 @@ p a:hover {
 }
 #header ul {
 	margin: 0;
-	padding: 56px 0 0;
+	padding: 20px 0 0;
 }
 #header ul li {
 	display: inline;
@@ -534,6 +534,10 @@ p a:hover {
 
 #colmenar+aside, #miraflores+aside{
 	display: none;
+}
+
+#header a.logo img:nth-child(2){
+	margin-left: 10px;
 }
 
 @media (max-width:962px) and (min-width:650px){
