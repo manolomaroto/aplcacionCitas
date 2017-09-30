@@ -1022,3 +1022,13 @@ div#footer div ul{
 	display: block;
 
 }
+
+#listado li{
+	color: #252525;
+	list-style: inside;
+    line-height: 24px;
+}
+
+#listado li:last-child{
+	margin-bottom: 30px;
+}
