@@ -1026,7 +1026,13 @@ div#footer div ul{
 #listado li{
 	color: #252525;
 	list-style: inside;
-    line-height: 24px;
+	line-height: 24px;
+	list-style-type: none;
+}
+
+#listado li::before{
+	content: "\2714";
+	margin-right: .5em; 
 }
 
 #listado li:last-child{
