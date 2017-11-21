@@ -8,7 +8,7 @@
  * Controller of the psicologiaMirafloresApp
  */
 angular.module('psicologiaMirafloresApp')
-  .controller('AboutCtrl', function () {
+  .controller('PsicologaCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
