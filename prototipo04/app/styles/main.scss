@@ -147,7 +147,11 @@ p a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-#header ul li a:hover, #header ul li.selected a {
+#header ul li a:hover, 
+.home,
+.psicologa a,
+.dondeEstamos a,
+#header ul .active a    {
 	color: #3DB3C7;
 }
 

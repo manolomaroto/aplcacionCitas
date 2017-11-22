@@ -29,6 +29,26 @@ angular
         controller: 'PsicologaCtrl',
         controllerAs: 'psicologa'
       })
+      .when('/dondeestamos', {
+        templateUrl: 'views/dondeestamos.html',
+        controller: 'DondeestamosCtrl',
+        controllerAs: 'dondeestamos'
+      })
+      .when('/adultos', {
+        templateUrl: 'views/adultos.html',
+        controller: 'AdultosCtrl',
+        controllerAs: 'adultos'
+      })
+      .when('/infantil', {
+        templateUrl: 'views/infantil.html',
+        controller: 'InfantilCtrl',
+        controllerAs: 'infantil'
+      })
+      .when('/parejas', {
+        templateUrl: 'views/parejas.html',
+        controller: 'ParejasCtrl',
+        controllerAs: 'parejas'
+      })
       .otherwise({
         redirectTo: '/'
       });

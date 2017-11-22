@@ -37,25 +37,25 @@
         </figure>
         
       </a>
-      <ul id="navigation">
-        <li class="selected">
+      <ul id="navigation" ng-controller="MaincontrollerCtrl as man">
+        <li ng-class="{ active: isActive('/') }">
           <a href="index.html">Inicio</a>
         </li>
-        <li>
+        <li ng-class="{ active: isActive('/psicologa') }">
           <a href="#!psicologa">Psicóloga</a>				
         </li>
   
-        <li>
-          <a href="dondeestamos.html">Dónde estamos</a>
+        <li ng-class="{ active: isActive('/dondeestamos') }">
+          <a href="#!dondeestamos">Dónde estamos</a>
         </li>
-        <li>
-          <a href="adultos.html">Adultos</a>
+        <li ng-class="{ active: isActive('/adultos') }">
+          <a href="#!adultos">Adultos</a>
         </li>
-        <li>
-          <a href="infantil.html">Infantil y adolescente</a>
+        <li ng-class="{ active: isActive('/infantil') }">
+          <a href="#!infantil">Infantil y adolescente</a>
         </li>
-        <li>
-          <a href="parejas.html">Terapia de pareja</a>
+        <li ng-class="{ active: isActive('/parejas') }">
+          <a href="#!parejas">Terapia de pareja</a>
         </li>
       </ul>
     </div>
@@ -119,6 +119,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/maincontroller.js"></script>
         <!-- endbuild -->
 </body>
 </html>

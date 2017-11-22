@@ -2,16 +2,16 @@
 
 /**
  * @ngdoc function
- * @name psicologiaMirafloresApp.controller:MainCtrl
+ * @name psicologiaMirafloresApp.controller:DondeestamosCtrl
  * @description
- * # MainCtrl
+ * # DondeestamosCtrl
  * Controller of the psicologiaMirafloresApp
  */
 angular.module('psicologiaMirafloresApp')
-  .controller('MainCtrl', ['mainController',function () {
+  .controller('DondeestamosCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-  }]);
+  });
