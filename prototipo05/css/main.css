@@ -1,0 +1,47 @@
+.logo, .logopsicologa{
+    margin-bottom: 0px;
+}
+
+.logopsicologa figure{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav{
+    background-color: #3DB3C7;
+}
+
+.page-footer{
+    background-color: #252525;
+}
+
+#facebook{
+    background-position: -34px 2px;
+}
+
+#facebook:hover{
+    background-position: -34px -29px;
+}
+
+#instagram{
+    background-position: -68px 4px;
+}
+
+#instagram:hover{
+    background-position: -68px -29px;
+}
+
+footer .container a{
+    background: url(../images/social-icons-sprite.png) no-repeat 0 0;
+    display: block;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    text-indent: -99999px;
+    width: 32px;
+}
+
+footer span{
+    position: relative;
+    bottom: -5px;
+}

@@ -76,10 +76,12 @@ h2{
 	font-weight: bold;
 	padding: 3px;
 }
-h3{
+h3 a{
 	font-size: 24px;
 	font-weight: bold;
 	padding: 3px;
+	text-decoration: none;
+	color: #fff;
 }
 
 .article p b{
@@ -355,7 +357,7 @@ p a:hover {
 	border-radius: 4px;
 	opacity: 0.9;
 }
-#body #featured div a {
+/* #body #featured div a {
 	background: #3DB3C7;
 	color: #fff;
 	display: inline-block;
@@ -370,7 +372,7 @@ p a:hover {
 }
 #body #featured div a:hover {
 	background: #1fc3bc;
-}
+} */
 #body > ul {
 	margin: 0 auto;
 	overflow: hidden;
