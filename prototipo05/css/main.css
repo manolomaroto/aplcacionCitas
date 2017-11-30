@@ -11,6 +11,10 @@ nav{
     background-color: #3DB3C7;
 }
 
+nav .brand-logo{
+    font-size: 1.7rem;
+}
+
 .page-footer{
     background-color: #252525;
 }
