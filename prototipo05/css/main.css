@@ -49,3 +49,27 @@ footer span{
     position: relative;
     bottom: -5px;
 }
+
+.parallax-container {
+    min-height: 300px;
+    height: auto;
+    margin: 20px 0;
+  }
+
+.parallax-container .card{
+    background-color: rgba(0,0,0,0.6);
+}
+
+.parallax-container .row{
+    margin: 10px;
+}
+
+.consultas{
+    font-size: 24px;
+    font-weight: 300px !important;
+    background-color: rgba(255,255,255,0.7)
+}
+
+.consultas-small{
+    background-color: rgba(61, 179, 199,0.7);
+}
