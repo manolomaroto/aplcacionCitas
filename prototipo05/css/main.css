@@ -73,3 +73,19 @@ footer span{
 .consultas-small{
     background-color: rgba(61, 179, 199,0.7);
 }
+
+figcaption{
+    font: italic 14px verdana, sans-serif;
+}
+
+@media screen and (min-width: 600px){
+    div.card-content.temas{
+        min-height: 120px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    div.card-content.white-text{
+        min-height: 150px;
+    }
+  }
