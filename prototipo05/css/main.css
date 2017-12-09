@@ -52,7 +52,7 @@ footer span{
 
 .parallax-container {
     min-height: 300px;
-    height: auto;
+    height: 450px;
     margin: 20px 0;
   }
 
@@ -78,6 +78,23 @@ figcaption{
     font: italic 14px verdana, sans-serif;
 }
 
+#listado li{
+	color: #252525;
+	list-style: inside;
+	line-height: 24px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#listado li::before{
+	content: "\2714";
+	margin-right: .5em; 
+}
+
+#listado li:last-child{
+	margin-bottom: 30px;
+}
+
 @media screen and (min-width: 600px){
     div.card-content.temas{
         min-height: 120px;
@@ -87,5 +104,8 @@ figcaption{
 @media screen and (min-width: 992px){
     div.card-content.white-text{
         min-height: 150px;
+    }
+    .col.s12 div.card div.card-content.white-text{
+        min-height: 60px !important;
     }
   }
