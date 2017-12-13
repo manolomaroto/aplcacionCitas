@@ -95,6 +95,12 @@ figcaption{
 	margin-bottom: 30px;
 }
 
+a.waves-effect.waves-light.btn-large{
+    width: 100%;
+    background-color: rgba(61, 179, 199,0.7);
+    margin-top: 10px;
+}
+
 @media screen and (min-width: 600px){
     div.card-content.temas{
         min-height: 120px;
