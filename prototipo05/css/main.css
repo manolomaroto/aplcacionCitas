@@ -105,6 +105,9 @@ a.waves-effect.waves-light.btn-large{
     div.card-content.temas{
         min-height: 120px;
     }
+    .index-row{
+        padding-top: 8%;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -113,5 +116,8 @@ a.waves-effect.waves-light.btn-large{
     }
     .col.s12 div.card div.card-content.white-text{
         min-height: 60px !important;
+    }
+    .index-row{
+        padding-top: 8%;
     }
   }
