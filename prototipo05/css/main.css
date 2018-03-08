@@ -148,4 +148,13 @@ h2{
     }
   }
 
+  @media only screen and (min-width: 601px) and (max-width: 780px) {
+    #card-call{
+        height: 129px;
+    }
+    #btn-online{
+        font-size: 2em;
+    }
+}
+
   
