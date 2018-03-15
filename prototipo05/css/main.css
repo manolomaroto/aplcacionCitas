@@ -105,6 +105,19 @@ h2{
     font-size: 2.28rem;
 }
 
+#card-call, #card-online{
+    min-height: 0px;
+    background-color: rgba(61, 179, 199,0.7);
+    padding: 18px;
+}
+
+#btn-online{
+    height: 182px;
+    padding-top: 58px;
+    font-size: 2.5em;
+
+}
+
 @media only screen and (min-width: 992px){
     html {
         font-size: 14px;
@@ -134,5 +147,14 @@ h2{
         height: 100px;
     }
   }
+
+  @media only screen and (min-width: 601px) and (max-width: 780px) {
+    #card-call{
+        height: 129px;
+    }
+    #btn-online{
+        font-size: 2em;
+    }
+}
 
   
