@@ -114,8 +114,12 @@ h2{
 #btn-online{
     height: 182px;
     padding-top: 58px;
-    font-size: 2.5em;
+    font-size: 1.5em;
 
+}
+
+#adultos, #parejas, #infantil{
+    opacity: 0;
 }
 
 @media only screen and (min-width: 992px){
@@ -153,7 +157,7 @@ h2{
         height: 129px;
     }
     #btn-online{
-        font-size: 2em;
+        font-size: 1.4em;
     }
 }
 
