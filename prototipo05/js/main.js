@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    var altura = $(window).height();
+    console.log(altura);
+    $("#cajacookies").css({'position':'fixed','top': altura - $("#cajacookies").height()});
     $(".button-collapse").sideNav();
     $('.parallax').parallax();
     $(".dropdown-button").dropdown();
@@ -11,4 +14,39 @@ $(document).ready(function(){
         
       ];
       Materialize.scrollFire(options);
+
+      checkCookie();
+      $("#botonAceptarCookies").click(setCookie);
+      
+      
+      
+      function setCookie() {
+      
+      document.cookie = "cookie=true";
+      $("#cajacookies").hide("slow");
+  }
+  
+      function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') {
+              c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+              return c.substring(name.length, c.length);
+          }
+      }
+      return "";
+  }
+  
+  function checkCookie() {
+      var cookieText = getCookie("cookie");
+      if (cookieText == "true") {
+          cajacookies.style.display = 'none';
+      }
+  }
+
+
 });

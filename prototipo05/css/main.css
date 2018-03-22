@@ -122,6 +122,15 @@ h2{
     opacity: 0;
 }
 
+#cajacookies{
+    background-color: rgba(200, 200, 200,0.9);
+    width: 100%;
+}
+
+#botonAceptarCookies{
+    background-color: #3DB3C7;
+}
+
 @media only screen and (min-width: 992px){
     html {
         font-size: 14px;
