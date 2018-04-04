@@ -1,7 +1,5 @@
 $(document).ready(function(){
-    var altura = $(window).height();
-    console.log(altura);
-    $("#cajacookies").css({'position':'fixed','top': altura - $("#cajacookies").height()});
+    var altura = $(window).height();    
     $(".button-collapse").sideNav();
     $('.parallax').parallax();
     $(".dropdown-button").dropdown();
@@ -45,6 +43,8 @@ $(document).ready(function(){
       var cookieText = getCookie("cookie");
       if (cookieText == "true") {
           cajacookies.style.display = 'none';
+      }else{
+        $("#cajacookies").css({'position':'fixed','top': altura - $("#cajacookies").height()});
       }
   }
 
