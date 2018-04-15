@@ -55,34 +55,34 @@
    
     <nav class="container">
         <ul id="dropdown1" class="dropdown-content">
-            <li><a href="madrid.html" onclick="ga('send', 'event', 'Enlaces', 'Madrid', 0);">Madrid</a></li>
-            <li><a href="colmenar.html" onclick="ga('send', 'event', 'Enlaces', 'Colmenar', 0);">Colmenar</a></li>
-            <li><a href="miraflores.html" onclick="ga('send', 'event', 'Enlaces', 'Miraflores', 0);">Miraflores</a></li>
+            <li><a href="madrid.html" class="madrid">Madrid</a></li>
+            <li><a href="colmenar.html" class="Colmenar">Colmenar</a></li>
+            <li><a href="miraflores.html" class="miraflores">Miraflores</a></li>
             <li><a href="https://psicologiaonline.simplybook.it" onclick="handleOutboundLinkClicks(event)">consultaonline</a></li>
         </ul>
         <div class="nav-wrapper">
             <a href="#!" class="brand-logo hide-on-large-only">Irene Gallego</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="left hide-on-med-and-down">
-                <li class="active"><a href="index.html" onclick="console.log(ga('send', 'event', 'Enlaces', 'Inicio', 0));">Inicio</a></li>
-                <li><a href="psicologa.html" onclick="ga('send', 'event', 'Enlaces', 'Psicologa, 0');">Psicologa</a></li>
-                <li><a class="dropdown-button" href="#!" data-activates="dropdown1" onclick="ga('send', 'event', 'Enlaces', 'Donde estamos', 0);">Dónde estamos<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="adultos.html" onclick="ga('send', 'event', 'Enlaces', 'Adultos', 0);">Adultos</a></li>
-                <li><a href="infantil.html" onclick="ga('send', 'event', 'Enlaces', 'Adolescentes', 0);">Adolescentes</a></li>
-                <li><a href="terapiapareja.html" onclick="ga('send', 'event', 'Enlaces', 'Pareja', 0);">Terapia pareja</a></li>
-                <li><a href="http://blog.psicologiamiraflores.com" onclick="ga('send', 'event', 'Enlaces', 'Blog', 0);">Blog</a></li>
+                <li class="active inicio"><a href="index.html">Inicio</a></li>
+                <li><a href="psicologa.html" class="psicologa">Psicologa</a></li>
+                <li><a class="dropdown-button dondeEstamos" href="#!" data-activates="dropdown1">Dónde estamos<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="adultos.html" class="adultos">Adultos</a></li>
+                <li><a href="infantil.html" class="adolescentes">Adolescentes</a></li>
+                <li><a href="terapiapareja.html" class="pareja">Terapia pareja</a></li>
+                <li><a href="http://blog.psicologiamiraflores.com" class="blog">Blog</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
-                <li class="active"><a href="index.html" onclick="ga('send', 'event', 'Enlaces', 'Inicio', 0);">Inicio</a></li>
-                <li><a href="psicologa.html" onclick="ga('send', 'event', 'Enlaces', 'Psicologa', 0);">Psicologa</a></li>
-                <li><a href="madrid.html" onclick="ga('send', 'event', 'Enlaces', 'Madrid', 0);">Consulta Madrid</a></li>
-                <li><a href="colmenar.html" onclick="ga('send', 'event', 'Enlaces', 'Colmenar', 0);">Consulta Colmenar</a></li>
-                <li><a href="miraflores.html" onclick="ga('send', 'event', 'Enlaces', 'Miraflores', 0);">Consulta Miraflores</a></li>
+                <li class="active inicio"><a href="index.html">Inicio</a></li>
+                <li><a href="psicologa.html" class="psicologa">Psicologa</a></li>
+                <li><a href="madrid.html" class="madrid">Consulta Madrid</a></li>
+                <li><a href="colmenar.html" class="colmenar">Consulta Colmenar</a></li>
+                <li><a href="miraflores.html" class="miraflores">Consulta Miraflores</a></li>
                 <li><a href="https://psicologiaonline.simplybook.it" onclick="handleOutboundLinkClicks(event)">Consulta online</a></li>
-                <li><a href="adultos.html" onclick="ga('send', 'event', 'Enlaces', 'Adultos', 0);">Adultos</a></li>
-                <li><a href="infantil.html" onclick="ga('send', 'event', 'Enlaces', 'Adolescente', 0);">Infantil y adolescente</a></li>
-                <li><a href="terapiapareja.html" onclick="ga('send', 'event', 'Enlaces', 'Pareja', 0);">Terapia de pareja</a></li>
-                <li><a href="http://blog.psicologiamiraflores.com" onclick="ga('send', 'event', 'Enlaces', 'Blog', 0);">Blog</a></li>
+                <li><a href="adultos.html" class="adultos">Adultos</a></li>
+                <li><a href="infantil.html" class="adolescentes">Infantil y adolescente</a></li>
+                <li><a href="terapiapareja.html" class="pareja">Terapia de pareja</a></li>
+                <li><a href="http://blog.psicologiamiraflores.com" class="blog">Blog</a></li>
             </ul>
         </div>
     </nav>       
@@ -94,13 +94,13 @@
                     <div class="col s12 m6">
                         <div class="row">
                             <div class="col s12">
-                                <a href="madrid.html" class="waves-effect waves-light btn-large" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Madrid');"><i class="material-icons right">location_city</i>Madrid - Goya</a>
+                                <a href="madrid.html" class="waves-effect waves-light btn-large" class="madrid"><i class="material-icons right">location_city</i>Madrid - Goya</a>
                             </div>                    
                             <div class="col s12">
-                                <a href="colmenar.html" class="waves-effect waves-light btn-large" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Colmenar');"><i class="material-icons right">location_city</i>Colmenar Viejo</a>
+                                <a href="colmenar.html" class="waves-effect waves-light btn-large" class="colmenar"><i class="material-icons right">location_city</i>Colmenar Viejo</a>
                             </div>                    
                             <div class="col s12">
-                                <a href="miraflores.html" class="waves-effect waves-light btn-large" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Miraflores');"><i class="material-icons right">landscape</i>Miraflores de la Sierra</a>
+                                <a href="miraflores.html" class="waves-effect waves-light btn-large" class="miraflores"><i class="material-icons right">landscape</i>Miraflores de la Sierra</a>
                             </div> 
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="row hide-on-small-only center-align">
                     <div class="col s6 ">
-                        <a href="" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Llamanos');">
+                        <a href="" class="llamanos">
                             <div class="card blue-grey darken-1 ">
                                 <div class="card-content white-text" id="card-online">
                                 <span class="card-title">¿Tienes alguna consulta?</span>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="row hide-on-med-and-up center-align">
                    <div class="col s12">
-                        <a href="tel:644435941" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Llamanos movil');">
+                        <a href="tel:644435941" class="llamanosMovil">
                             <div class="card blue-grey darken-1 ">
                                 <div class="card-content white-text" id="card-online">
                                 <span class="card-title">Atención presencial</span>
@@ -183,7 +183,7 @@
                 <div class="card hoverable">
                     <div class="card-image">
                         <img class="responsive-img" src="images/clouds.jpg" alt="Enlace adultos">
-                        <a href="adultos.html" class="btn-floating halfway-fab waves-effect waves-light" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Adultos tarjeta');"><i class="material-icons">add</i></a>
+                        <a href="adultos.html" class="btn-floating halfway-fab waves-effect waves-light adultos"><i class="material-icons">add</i></a>
                     </div>
                     <div class="card-content temas">
                         <span class="card-title">Adultos</span>
@@ -194,7 +194,7 @@
                 <div class="card hoverable">
                     <div class="card-image">
                         <img class="responsive-img" src="images/backpack.jpg" alt="Enlace adolescentes">
-                        <a href="infantil.html" class="btn-floating halfway-fab waves-effect waves-light" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Adolescente tarjeta');"><i class="material-icons">add</i></a>
+                        <a href="infantil.html" class="btn-floating halfway-fab waves-effect waves-light adolescentes"><i class="material-icons">add</i></a>
                     </div>
                     <div class="card-content temas">
                         <span class="card-title">Infantil y adolescente</span>
@@ -205,7 +205,7 @@
                 <div class="card hoverable">
                     <div class="card-image">
                         <img class="responsive-img" src="images/holding-hands.jpg" alt="Enlace parejas">
-                        <a href="terapiapareja.html" class="btn-floating halfway-fab waves-effect waves-light" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Tarjeta pareja');"><i class="material-icons">add</i></a>
+                        <a href="terapiapareja.html" class="btn-floating halfway-fab waves-effect waves-light pareja"><i class="material-icons">add</i></a>
                     </div>
                     <div class="card-content temas">
                         <span class="card-title">Pareja</span>
@@ -219,8 +219,8 @@
         <div class="footer-copyright">
             <div class="container">
                 <span><i class="tiny material-icons">copyright</i> 2017 Psicología Miraflores</span> 
-                <a class="grey-text text-lighten-4 right" id="instagram" href="https://www.instagram.com/psicologiamiraflores" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Instagram');">Instagram</a>
-                <a class="grey-text text-lighten-4 right" id="facebook" href="https://www.facebook.com/psicologiamirafloresdelasierra" onclick="ga('send', 'event', 'Enlaces', 'clic', 'Facebook');">Facebook</a>                  
+                <a class="grey-text text-lighten-4 right" id="instagram" href="https://www.instagram.com/psicologiamiraflores" onclick="ga('send', 'event', 'Enlaces', 'Instagram', 0);">Instagram</a>
+                <a class="grey-text text-lighten-4 right" id="facebook" href="https://www.facebook.com/psicologiamirafloresdelasierra" onclick="ga('send', 'event', 'Enlaces', 'Facebook', 0);">Facebook</a>                  
             </div>
         </div>
     </footer>

@@ -48,5 +48,46 @@ $(document).ready(function(){
       }
   }
 
-
+  $('.inicio').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Inicio', 0);
+  });
+  $('.psicologa').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Psicologa', 0);
+  });
+  $('.dondeEstamos').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Donde estamos, 0');
+  });
+  $('.madrid').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Madrid', 0);
+  });
+  $('.colmenar').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Colmenar', 0);
+  });
+  $('.miraflores').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Miraflores', 0);
+  });
+  $('.adultos').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Adultos', 0);
+  });
+  $('.adolescentes').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Adolescentes', 0);
+  });
+  $('.pareja').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Pareja', 0);
+  });
+  $('.blog').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Blog', 0);
+  });
+  $('.llamanos').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Llamanos', 0);
+  });
+  $('.llamanosMovil').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Llamanos movil', 0);
+  });
+  $('#instagram').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Instagram', 0);
+  });
+  $('#facebook').on('click', function(){
+    ga('send', 'event', 'Enlaces', 'Facebook', 0);
+  });
 });
