@@ -131,6 +131,16 @@ h2{
     background-color: #3DB3C7;
 }
 
+#aviso-legal{
+    display: inline;
+    background-image: none;
+    color: lightblue;
+    margin: 30px;
+    position: relative;
+    top: 5px;
+    color: rgba(255,255,255,0.8);
+}
+
 @media only screen and (min-width: 992px){
     html {
         font-size: 14px;
