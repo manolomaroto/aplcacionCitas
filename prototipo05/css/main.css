@@ -134,8 +134,7 @@ h2{
 #aviso-legal{
     display: inline;
     background-image: none;
-    color: lightblue;
-    margin: 30px;
+    margin: 5px;
     position: relative;
     top: 5px;
     color: rgba(255,255,255,0.8);
