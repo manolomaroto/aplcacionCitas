@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <!--Import Google Icon Font-->
@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Estamos en Barrio de Salamanca- Madrid, Colmenar Viejo y Miraflores de la Sierra . Atención psicológica para niños y adultos en la sierra norte de Madrid.Abordaje cognitivo-conductual, terapias de tercera generación y EMDR. Centro de Psicología inscrito en el Registro de Centros, Servicios y Establecimientos Sanitarios de la Comunidad de Madrid">
-    <meta name="keywords" content="psicología, sierra norte de Madrid,Miraflores de la Sierra,Colmenar Viejo, Barrio de Salamanca,atención psicológica, cognitivo-conductual, terapias cognitivo-conductual,terapias de tercera generación,EMDR,centro de psicologia">
+    <meta name="description" content="Estamos en Barrio de Salamanca (Madrid), Colmenar Viejo y Miraflores de la Sierra . Atención psicológica para niños y adultos en la sierra norte de Madrid.Abordaje cognitivo-conductual, terapias de tercera generación y EMDR. Centro de Psicología inscrito en el Registro de Centros, Servicios y Establecimientos Sanitarios de la Comunidad de Madrid">
+    <meta name="keywords" content="Irene Gallego, psicología, sierra norte de Madrid,Miraflores de la Sierra,Colmenar Viejo, Barrio de Salamanca,atención psicológica, cognitivo-conductual, terapias cognitivo-conductual,terapias de tercera generación,EMDR,centro de psicología">
     <meta name="author" content="Irene Gallego Cuenca">
     <meta property="og:locale" content="en_ES">
     <meta property="og:type" content="website">
     <meta property="og:title" content="www.psicologiamiraflores.com">
-    <meta property="og:description" content="Estamos en Barrio de Salamanca- Madrid, Colmenar Viejo y Miraflores de la Sierra . Atención psicológica para niños y adultos en la sierra norte de Madrid.Abordaje cognitivo-conductual, terapias de tercera generación y EMDR. Centro de Psicología inscrito en el Registro de Centros, Servicios y Establecimientos Sanitarios de la Comunidad de Madrid">
+    <meta property="og:description" content="Estamos en Barrio de Salamanca (Madrid), Colmenar Viejo y Miraflores de la Sierra . Atención psicológica para niños y adultos en la sierra norte de Madrid.Abordaje cognitivo-conductual, terapias de tercera generación y EMDR. Centro de Psicología inscrito en el Registro de Centros, Servicios y Establecimientos Sanitarios de la Comunidad de Madrid">
     <meta property="og:url" content="http://psicologiamiraflores.com/">
     <meta property="og:site_name" content="Psicología Miraflores">
     <!-- Facebook Pixel Code -->
@@ -35,7 +35,7 @@
         <img height="1" width="1" src="https://www.facebook.com/tr?id=202510623638151&ev=PageView&noscript=1"/>
     </noscript>
     <!-- End Facebook Pixel Code -->
-    <title>Psicología Miraflores</title>
+    <title>Psicología Miraflores | Consulta de Madrid</title>
 </head>
 <body>
     <div class="container">
@@ -55,41 +55,42 @@
         </header>
         <nav>
             <ul id="dropdown1" class="dropdown-content">
-                <li><a href="madrid.html">Madrid</a></li>
-                <li><a href="colmenar.html">Colmenar</a></li>
-                <li><a href="miraflores.html">Miraflores</a></li>
-                <li><a href="https://psicologiaonline.simplybook.it">Online</a></li>
+                <li class="active"><a href="consulta-madrid.html" class="madrid">Madrid</a></li>
+                <li><a href="consulta-colmenar.html" class="Colmenar">Colmenar</a></li>
+                <li><a href="consulta-miraflores.html" class="miraflores">Miraflores</a></li>
+                <li><a href="https://psicologiaonline.simplybook.it" onclick="handleOutboundLinkClicks(event)">Consulta Online</a></li>
             </ul>
             <div class="nav-wrapper">
                 <a href="#!" class="brand-logo hide-on-large-only">Irene Gallego</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="left hide-on-med-and-down">
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="psicologa.html">Psicologa</a></li>
-                    <li class="active"><a class="dropdown-button" href="#!" data-activates="dropdown1">Dónde estamos<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a href="adultos.html">Adultos</a></li>
-                    <li><a href="infantil.html">Adolescentes</a></li>
-                    <li><a href="terapiapareja.html">Terapia pareja</a></li>
-                    <li><a href="http://blog.psicologiamiraflores.com">Blog</a></li>
+                    <li><a href="psicologa-irene-gallego.html" class="psicologa">Psicologa</a></li>
+                    <li class="active"><a class="dropdown-button dondeEstamos" href="#!" data-activates="dropdown1">Dónde estamos<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="terapia-adultos.html" class="adultos">Adultos</a></li>
+                    <li><a href="terapia-infantil.html" class="adolescentes">Adolescentes</a></li>
+                    <li><a href="terapia-pareja.html" class="pareja">Terapia pareja</a></li>
+                    <li><a href="http://blog.psicologiamiraflores.com" class="blog">Blog</a></li>
                 </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="psicologa.html">Psicologa</a></li>
-                        <li><a href="madrid.html">Consulta Madrid</a></li>
-                        <li><a href="colmenar.html">Consulta Colmenar</a></li>
-                        <li class="active"><a href="miraflores.html">Consulta Miraflores</a></li>
-                        <li><a href="https://psicologiaonline.simplybook.it">Consulta online</a></li>
-                        <li><a href="adultos.html">Adultos</a></li>
-                        <li><a href="infantil.html">Infantil y adolescente</a></li>
-                        <li><a href="terapiapareja.html">Terapia de pareja</a></li>
-                        <li><a href="http://blog.psicologiamiraflores.com">Blog</a></li>
-                    </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="psicologa-irene-gallego.html" class="psicologa">Psicologa</a></li>
+                    <li class="active"><a href="consulta-madrid.html" class="madrid">Consulta Madrid</a></li>
+                    <li><a href="consulta-colmenar.html" class="colmenar">Consulta Colmenar</a></li>
+                    <li><a href="consulta-miraflores.html" class="miraflores">Consulta Miraflores</a></li>
+                    <li><a href="https://psicologiaonline.simplybook.it" onclick="handleOutboundLinkClicks(event)">Consulta online</a></li>
+                    <li><a href="terapia-adultos.html" class="adultos">Adultos</a></li>
+                    <li><a href="terapia-infantil.html" class="adolescentes">Infantil y adolescente</a></li>
+                    <li><a href="terapia-pareja.html" class="pareja">Terapia de pareja</a></li>
+                    <li><a href="http://blog.psicologiamiraflores.com" class="blog">Blog</a></li>
+                </ul>
             </div>
         </nav>
+                      
         <section class="container">
             <div class="row">
                 <div class="col s12 center-align">
-                    <h1>Miraflores de la Sierra</h1>
+                    <h1>Despacho de Madrid</h1>
                 </div>
             </div>
             <div class="row">
@@ -101,36 +102,34 @@
                                 <div class="row">
                                     <div class="col s12">
                                         <p class="flow-text">
-                                            La consulta de Miraflores de la Sierra se consolida como la principal, siendo la primera que se fundó y la que nos da nuestro nombre Psicología Miraflores. 
+                                                La consulta de Madrid-Goya nos permite recibir a los pacientes que residen en diferentes zonas de la capital.
                                         </p>
                                     </div>
                                 </div>
-                            <div class="row">
-                                <div class="col s12">
-                                    
-                                    <figure>
-                                            <img class="responsive-img" src="images/despacho1.jpg" alt="Despacho Miraflores">
-                                    </figure>
-                                    
+                                <div class="row">
+                                    <div class="col s12">
+                                        <figure>
+                                            <img class="responsive-img" src="images/despachoGoya.jpg" alt="Despacho Madrid">
+                                        </figure>
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                         </li>
                         <li>
                             <div class="collapsible-header"><i class="material-icons">place</i>Ubicación</div>
                             <div class="collapsible-body">
-                                <div class="row">
-                                    <div class="col s12">
-                                        <p class="flow-text">
-                                            Situados en un enclave único en la Sierra de Guadarrama atendemos a la población local y a vecinos/as de los municipios aledaños: Guadalix de la Sierra, Soto del Real, Manzanares el Real, Torrelaguna, Torremocha del Jarama…etc. 
-                                        </p>
-                                    </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <p class="flow-text">
+                                        Gracias a su magnífica ubicación en la Calle Goya, en el corazón del Barrio de Salamanca, es muy sencillo su acceso desde diferentes puntos de la ciudad a través de metro (estación metro Goya, líneas 2 y 4), múltiples autobuses, taxis y parkings en las inmediaciones. 
+                                    </p>
                                 </div>
-                                <div class="row">
-                                    <div class="col s12">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.784799633214!2d-3.767678048701841!3d40.810722539404914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4162223bdb92ed%3A0xe31c333fa19ecf90!2sTraves%C3%ADa+de+la+Luz%2C+5%2C+28792+Miraflores+de+la+Sierra%2C+Madrid!5e0!3m2!1ses!2ses!4v1512764117567" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>             
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.958101954402!2d-3.678575353117273!3d40.424740419117306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228bca1c2b39d%3A0x8b4ead1e5f6aeff1!2sCalle+de+Goya%2C+83%2C+28001+Madrid!5e0!3m2!1ses!2ses!4v1512760931794" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>              
                                 </div>
+                            </div>
                             </div>
                         </li>
                         <li>
@@ -139,7 +138,8 @@
                                 <div class="row">
                                     <div class="col s12">
                                         <p class="flow-text">
-                                            Atendemos terapia individual para adultos,  adolescentes y niños. Así como terapia familiar y de pareja. 
+                                            Atendemos terapia individual para adultos, adolescentes y terapia de pareja. 
+                                            La terapia infantil en la actualidad se realiza en la consulta de Miraflores de la Sierra, dada sus características especiales y los materiales terapéuticos específicos necesarios para su desarrollo.
                                         </p>
                                     </div>
                                 </div>
