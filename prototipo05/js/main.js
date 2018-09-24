@@ -13,9 +13,10 @@ $(document).ready(function(){
       ];
       Materialize.scrollFire(options);
 
+
       checkCookie();
       $("#botonAceptarCookies").click(setCookie);
-      
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
       
       
       function setCookie() {
