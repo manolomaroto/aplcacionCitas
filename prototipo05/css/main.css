@@ -149,6 +149,22 @@ h2{
     height: 138px  !important;
 }
 
+.carousel-item-one {
+    background-color: 	hsla(189, 55%, 51%, 0.7)
+}
+
+.carousel-item-two {
+    background-color: 	hsla(189, 55%, 41%, 0.7)
+}
+
+.carousel-item-three {
+    background-color: 	hsla(189, 55%, 31%, 0.7)
+}
+
+.carousel-item-four {
+    background-color: 	hsla(189, 55%, 21%, 0.7)
+}
+
 @media only screen and (min-width: 992px){
     html {
         font-size: 14px;
