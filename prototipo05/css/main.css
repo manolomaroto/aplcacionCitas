@@ -61,8 +61,9 @@ footer span{
 }
 
 .parallax-container .row{
-    margin: 10px;
+    margin-top: 10px;
 }
+
 
 .consultas{
     font-size: 24px;
@@ -176,7 +177,7 @@ h2{
         min-height: 120px;
     }
     .index-row{
-        padding-top: 8%;
+        padding-top: 4%;
     }
 }
 
@@ -188,7 +189,7 @@ h2{
         min-height: 60px !important;
     }
     .index-row{
-        padding-top: 8%;
+        padding-top: 4%;
     }
     #logoPsicologia{
         height: 100px;
