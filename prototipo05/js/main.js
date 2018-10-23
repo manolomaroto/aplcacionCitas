@@ -17,7 +17,7 @@ $(document).ready(function(){
       checkCookie();
       $("#botonAceptarCookies").click(setCookie);
       $('.carousel.carousel-slider').carousel({fullWidth: true});
-      
+      window.setInterval(() => $('.carousel').carousel('next'), 4000);
       
       function setCookie() {
       
