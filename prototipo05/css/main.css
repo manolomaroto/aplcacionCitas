@@ -146,8 +146,8 @@ h2{
     display: block;
 }
 
-#carousel-opiniones{
-    height: 138px  !important;
+#carousel-opiniones {
+    height: 170px !important;
 }
 
 .carousel-item-one {
@@ -164,6 +164,21 @@ h2{
 
 .carousel-item-four {
     background-color: 	hsla(189, 55%, 21%, 0.7)
+}
+
+#carousel-opiniones .carousel-item h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#carousel-opiniones.carousel.carousel-slider {
+    top: -30px;
+    left: 0;
+}
+
+#carousel-opiniones.carousel .indicators{
+    bottom: -20px;
 }
 
 @media only screen and (min-width: 992px){
