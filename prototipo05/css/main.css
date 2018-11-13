@@ -60,9 +60,7 @@ footer span{
     background-color: rgba(0,0,0,0.6);
 }
 
-.parallax-container .row{
-    margin-top: 10px;
-}
+
 
 
 .consultas{
@@ -185,6 +183,9 @@ h2{
     html {
         font-size: 14px;
     }
+    .parallax-container .row{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 600px){
@@ -217,6 +218,12 @@ h2{
     }
     #btn-online{
         font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .parallax-container .row .col.s12 {
+        margin-top: 25px;
     }
 }
 
